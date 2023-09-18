@@ -1,0 +1,4 @@
+time = input('How many second?')
+minuts = int(time)/60
+seconds = int(time) - (int(minuts)*60)
+print(str(int(minuts)) + str(':') + str(int(seconds)))
