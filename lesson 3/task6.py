@@ -3,4 +3,6 @@ m_dict = {'January': 31, 'February': 28, 'March': 31,
           'July': 31, 'August': 31, 'September': 30,
           'October': 31, 'November': 30, 'December': 31}
 m = input('Enter the month')
-print(m_dict[m])
+d = int(input('Enter the day'))
+if d >= 1 and d <= m_dict[m]:
+    print('true')

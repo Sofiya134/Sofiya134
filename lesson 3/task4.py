@@ -1,5 +1,2 @@
-w = input()
-if w[::-1] == w:
-    print('true')
-else:
-    print('false')
+s = input('enter the symbols')
+print(tuple(set(s)))
